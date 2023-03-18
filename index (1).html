@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title> Contact Form Design </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form method="post" action="">
+            <input type="text" name="name" placeholder="your name" required>
+            <input type="text" name="phone" placeholder="phone no" required>
+            <input type="text" name="email" placeholder="your email" required>
+            <textarea name="message" placeholder="your message" required></textarea>
+
+            <div class="g-recaptcha" data-sitekey="6Lcq99wkAAAAALYZrm9dvm5agO_vZiQl1-AhEbqp"> </div>
+
+
+            <input type="submit" name="submit" value="submit message" class="submit-btn">
+        </form>
+    </div>
+
+</body>
+
+</html>
